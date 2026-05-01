@@ -207,16 +207,20 @@ export default function ProcessAnalysisPage(): JSX.Element {
         </div>
 
         <div className="flex justify-end gap-3">
-          <Button variant="outline">
-            <FileDown className="mr-2 h-4 w-4" />
-            Gerar Excel
-          </Button>
+  <Button variant="outline">
+    <FileDown className="mr-2 h-4 w-4" />
+    Gerar Excel
+  </Button>
 
-          <Button>
-            <Download className="mr-2 h-4 w-4" />
-            Gerar relatório PDF
-          </Button>
-        </div>
+  <Button variant="outline">
+    <Download className="mr-2 h-4 w-4" />
+    Gerar PDF
+  </Button>
+
+  <Button>
+    Revisar divergências
+  </Button>
+</div>
       </section>
     </AppShell>
   );
